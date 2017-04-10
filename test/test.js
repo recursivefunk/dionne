@@ -28,7 +28,19 @@ test.before(async t => {
   const db = await DB(opts)
   const knex = db[1].knex
   const table = db[2]
+  console.log(`Cleaning '${table}' table...`)
   await knex(table).del()
+})
+
+test('simple set/get', async t => {
+  let store
+  let item
+  store = await appStore(opts)
+  item = await store.get('fooz')
+  t.is(undefined, item)
+  await store.set('fooz', 'booz')
+  item = await store.get('fooz')
+  t.is(item, 'booz')
 })
 
 test('batch setting/getting', async t => {
