@@ -1,7 +1,8 @@
 ## Dionne Davenport
 
-[![circle-status](https://circleci.com/gh/recursivefunk/dionne.png?circle-token=b071c5f82e8c33880dc87eb169d67434c65531b0)](https://circleci.com/)
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
+[![circle-status](https://circleci.com/gh/recursivefunk/dionne.png?circle-token=b071c5f82e8c33880dc87eb169d67434c65531b0)](https://circleci.com/gh/recursivefunk/dionne/)
+
+[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](http://standardjs.com)
 
 ![](http://i.imgur.com/yh2In1R.gif)
 
