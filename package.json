@@ -1,11 +1,11 @@
 {
-  "name": "dionne",
+  "name": "dionne-davenport",
   "version": "1.0.0",
   "description": "PostgresSQL backed key/val store with support for JSON values and key expiration",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/recursivefunk/dionne"
+    "url": "https://github.com/recursivefunk/dionne-davenport"
   },
   "scripts": {
     "test": "npm run lint && ava",

@@ -6,13 +6,13 @@
 Essentially hstore with JSON val and key expiration support
 
 ```
-$ npm install dionne --save
+$ npm install dionne-davenport --save
 ```
 
 Basic setting/getting
 
 ```javascript
-const Dionne = require('dionne')
+const Dionne = require('dionne-davenport')
 const opts = {
   appName: 'myApp',
   dbUrl: process.env.DATABASE_URL
