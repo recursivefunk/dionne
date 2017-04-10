@@ -1,0 +1,41 @@
+{
+  "name": "dionne",
+  "version": "1.0.0",
+  "description": "PostgresSQL backed key/val store with support for JSON values and key expiration",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/recursivefunk/dionne"
+  },
+  "scripts": {
+    "test": "npm run lint && ava",
+    "lint": "eslint lib/ test/ index.js"
+  },
+  "author": "Johnny Ray Austin <johnny@johnnyray.me>",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.3.0",
+    "bluebird": "^3.5.0",
+    "bookshelf": "^0.10.3",
+    "check-types": "^7.1.5",
+    "good-env": "^1.3.8",
+    "knex": "^0.12.9",
+    "lodash": "^3.10.1",
+    "pg": "^6.1.5",
+    "stampit": "^3.1.2"
+  },
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "dotenv": "^4.0.0",
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "leaked-handles": "^5.2.0"
+  },
+  "engines": {
+    "node": ">=4"
+  }
+}
