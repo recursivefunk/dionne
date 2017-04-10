@@ -3,6 +3,9 @@ dependencies:
     - nvm install "$(< .nvmrc)"
   services:
     - postgresql
+dependencies:
+  override:
+    - sudo service postgresql stop 9.5
 machine:
   environment:
     CIRCLE_ENV: test
