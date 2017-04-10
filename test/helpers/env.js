@@ -7,9 +7,9 @@ let appName, dbUrl
 
 try {
   require('dotenv').config({ path: path.resolve('./test/test.env') })
-} catch (e) { /* No env file */ }
+} catch (e) { }
 
-appName = env.get('APP_NAME', 'test_app')
+appName = env.get('APP_NAME', 'dionne')
 dbUrl = env.get('DATABASE_URL', `postgresql://localhost:5432/${appName}`)
 
 module.exports = {

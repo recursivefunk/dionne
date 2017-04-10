@@ -1,5 +1,6 @@
 ## PostgresSQL Context
 
+[![circle-status](https://circleci.com/gh/recursivefunk/dionne.png?circle-token=b071c5f82e8c33880dc87eb169d67434c65531b0)](https://circleci.com/)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
 
 Essentially hstore with JSON val and key expiration support
