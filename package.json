@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "npm run lint && ava",
-    "lint": "eslint lib/ test/ index.js"
+    "lint": "eslint lib/ test/ models/ index.js"
   },
   "author": "Johnny Ray Austin <johnny@johnnyray.me>",
   "license": "MIT",
