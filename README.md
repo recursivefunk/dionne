@@ -6,7 +6,7 @@
 
 ![](http://i.imgur.com/yh2In1R.gif)
 
-Essentially hstore with JSON val and key expiration support
+Essentially hstore with JSON val
 
 ```
 $ npm install dionne-davenport --save
@@ -61,15 +61,6 @@ item = await store.get('delMe')
 console.log(item) // undefined
 ```
 
-Key Expiration (experimental)
-
-```javascript
-await store.set('beep', 'boop', 2000)
-setTimeout(async () => {
-  let item = await store.get('beep')
-  console.log(item) // undefined
-}, 4000)
-```
 
 ### Tests
 Create your test PostgresSQL database and user and create a test.env file for environment constiables
