@@ -12,7 +12,7 @@ const env = require('./helpers/env')
 
 const opts = {
   appName: env.appName,
-  dbUrl: env.dbUrl
+  url: env.url
 }
 
 const tearDown = (store, t) => {

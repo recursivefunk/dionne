@@ -18,7 +18,7 @@ Basic setting/getting
 const Dionne = require('dionne-davenport')
 const opts = {
   appName: 'myApp',
-  dbUrl: process.env.DATABASE_URL
+  url: process.env.DATABASE_URL
 }
 const store = await Dionne(opts)
 await store.set('as', 'if')
