@@ -1,6 +1,6 @@
 ## Dionne Davenport
 
-[![circle-status](https://circleci.com/gh/recursivefunk/dionne.png?circle-token=b071c5f82e8c33880dc87eb169d67434c65531b0)](https://circleci.com/gh/recursivefunk/dionne/)
+[![circle-status](https://circleci.com/gh/recursivefunk/dionne-davenport.png?circle-token=b071c5f82e8c33880dc87eb169d67434c65531b0)](https://circleci.com/gh/recursivefunk/dionne-davenport/)
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](http://standardjs.com)
 
