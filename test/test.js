@@ -95,27 +95,3 @@ test('delete key', async (t) => {
   t.falsy(item, 'Deleted item has been deleted')
   await tearDown(store, t)
 })
-
-// test('ttl functionality', async (t) => {
-//   let item
-//   const store = await appStore(opts)
-//
-//   await store.set('beep', 'boop', 500)
-//   item = await store.get('beep')
-//   t.truthy(item, 'The item was successfully set')
-//   t.is(item, 'boop', `The item's value is as expected`)
-//
-//   await (() => {
-//     return new P((resolve, reject) => {
-//       setTimeout(() => {
-//         store.get('beep')
-//           .then((fetched) => {
-//             t.falsy(fetched, 'The fetched item should be undefined by now')
-//             resolve()
-//           })
-//           .catch((err) => reject(err))
-//       }, 1000)
-//     })
-//   })()
-//   await tearDown(store, t)
-// })
