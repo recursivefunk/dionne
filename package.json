@@ -1,6 +1,6 @@
 {
   "name": "dionne-davenport",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "PostgresSQL backed key/val store with support for JSON values and key expiration",
   "main": "index.js",
   "repository": {
@@ -8,7 +8,7 @@
     "url": "https://github.com/recursivefunk/dionne-davenport"
   },
   "scripts": {
-    "test": "npm run lint && ava",
+    "test": "ava",
     "lint": "eslint lib/ test/ index.js"
   },
   "author": "Johnny Ray Austin <johnny@johnnyray.me>",

@@ -9,3 +9,7 @@ machine:
     NODE_ENV: test
     DATABASE_URL: postgresql://ubuntu:@localhost:5432/circle_test
     APP_NAME: circle_test
+test:
+  override:
+    - npm run lint
+    - npm test
